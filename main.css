@@ -1,0 +1,124 @@
+
+.background{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+.main{
+    position: fixed;
+    background-color: grey;
+    display: inline-block;
+    display: flex;
+    padding: 50px 200px 200px 200px;
+    opacity: 60%;
+    justify-content: center;
+    width: 500px;
+    margin-right: 250px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 500;
+}
+.input-name{
+    width: 350px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.age{
+    font-size: 25px;
+    font-weight: 500;
+}
+.display{
+    
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.input-age{
+    width: 120px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.input-display{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.gender{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.male{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.female{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.email,.password,.phno{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.input-password{
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.input-phno{
+    width: 352px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.input-email{
+    width: 352px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.submit{
+    margin-top: 10px;
+    padding: 15px 173px 15px 173px;
+    font-size: 30px;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    border: solid;
+    border-color: black;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+}
+.reset{
+    background-color: red;
+    color: white;
+}
+.reset:hover{
+    background-color: darkred;
+}
